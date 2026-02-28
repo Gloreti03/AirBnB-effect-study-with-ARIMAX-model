@@ -7,10 +7,8 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Large data files — download separately per README instructions
-data/raw_2023_2024/
-data/raw_2025/
-data/*.csv
+# Processed output (viene rigenerato dal notebook)
+data/master_airbnb_24_25.csv
 
 # Geo files are small and versioned
 # geo/ is NOT ignored
