@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# Large data files — download separately per README instructions
+data/raw_2023_2024/
+data/raw_2025/
+data/*.csv
+
+# Geo files are small and versioned
+# geo/ is NOT ignored
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp extraction folders
+arch*_check/
